@@ -1,0 +1,153 @@
+.hero2 {
+    background-image: url("/public/img/page2.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 10vh;
+    padding-top: 20%;
+    padding-right: 50px;
+    color: #fff;
+    margin: 0;
+}
+
+.content2 h1 {
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.about-content {
+    position: relative;
+    top: 20rem;
+    left: 470px;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 20px;
+    width: 800px;
+}
+
+.about-content h2 {
+    position: relative;
+    bottom: 100px;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+    color: #2354b3;
+    font-size: 40px;
+    margin: 20px 0px;
+}
+
+.about-content p {
+    position: relative;
+    bottom: 30px;
+    font-family: 'Roboto', sans-serif;
+    margin: 0 auto;
+    font-size: 20px;
+    max-width: 800px;
+    color: black;
+}
+
+.school-motto-container {
+    position: absolute;
+    left: -7px;
+    top: -5rem;
+}
+
+
+.content-Num {
+    position: absolute;
+    top: 105rem;
+    left: 100px;
+    height: 528px;
+    width: 1291px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.content-Num h2 {
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    bottom: 20px;
+    left: 8px;
+    font-size: 50px;
+}
+
+.content-Num h3 {
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    bottom: 75px;
+    left: 1px;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.Num>h2,
+.Num>h3 {
+    position: relative;
+    left: 100px;
+}
+
+.Num>img {
+    position: relative;
+    top: 105px;
+    height: 80px;
+    width: auto;
+}
+
+.image-container> img {
+    height: 5px;
+    width: 11px;
+    
+}
+
+.background-in {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.background-in img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    z-index: -1;
+}
+
+.Num {
+    position: relative;
+    bottom: 453px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: center;
+    height: 160px;
+    width: 266px;
+    padding: 30px 20px;
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+
+.Num:hover {
+    background-color: #1eb2a6;
+    transform: scale(1.1);
+}
+
+.about-footer{
+    position: relative;
+    top: 107rem;
+    right: 0px;
+}

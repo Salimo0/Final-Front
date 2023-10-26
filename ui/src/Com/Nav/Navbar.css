@@ -1,0 +1,109 @@
+/* Navbar.css */
+.navbar {
+    color: #fff;
+    background-color: #ffffff;
+    width: 120px;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom-left-radius: 20px;
+    justify-content: space-between;
+    transition: all 0.3s ease;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar:hover {
+    width: 155px;
+    height: 300px;
+    padding: 20px;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    transition: all 0.3s ease;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.navbar:hover ul {
+    visibility: visible;
+    opacity: 1;
+}
+
+.navbar li {
+    padding: 10px;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: #2354b3;
+    font-weight: bold;
+    transition: color 0.3s, transform 0.3s; 
+}
+
+.navbar li a:hover {
+    color: #1eb2a6; 
+    text-decoration: underline;
+    transform: scale(1.2); 
+}
+
+.icon-navbar {
+    display: none;
+    color: #000000;
+    font-weight: 700;
+    position: relative;
+    top: 15px;
+    right: 0;
+}
+
+.navbar:hover .icon-navbar {
+    display: block;
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        width: 0;
+    }
+
+    .navbar:hover {
+        width: 250px;
+    }
+}
+
+.navbar button {
+    display: none;
+}
+
+.navbar:hover button {
+    display: inline-block;
+    margin-top: 10px;
+    margin-right: 10px;
+    background-color: #0a9fa2;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.navbar button:hover {
+    background-color: #0a9fa2;
+    color: #000;
+    transform: scale(1.05);
+    transition: background-color 0.3s, color 0.3s, transform 0.3s;}
+

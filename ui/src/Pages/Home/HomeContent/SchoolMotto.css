@@ -1,0 +1,333 @@
+.HoAbout {
+    position: absolute;
+    left: -7px;
+    top: 160px;
+}
+
+.part-two {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    height: 946.412px;
+    width: 645.65px;
+    padding: 80px 50px;
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    left: 760px;
+    top: 700px;
+
+}
+
+
+.part-two h3 {
+    font-size: 18.72px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #2354b3;
+}
+
+.part-two h1 {
+    font-family: 'Roboto';
+    margin-left: -90px;
+    font-size: 45px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #000;
+    margin: 20px 0;
+}
+
+
+.item-flexSB {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: rgb(138, 0, 0);
+    background-color: #ffffff;
+    height: 100px;
+    width: 545.65px;
+    margin: 30px 0;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.item-flexSB h2 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #000;
+    margin: 0 0 15px 0;
+    cursor: pointer;
+    position: relative;
+    bottom: -350px;
+    left: 183px;
+    transition: all 0.3.5s ease;
+}
+
+.text {
+    position: absolute;
+    top: -2.45rem;
+    left: 50px;
+    transition: all 0.5s ease;
+}
+
+.item-flexSB p {
+    font-size: 18px;
+    line-height: 30px;
+    word-spacing: 0;
+    color: #a7a5a5;
+    height: 60px;
+    width: 389.875px;
+    position: absolute;
+    top: 370px;
+    left: 183px;
+    display: block;
+    cursor: pointer;
+}
+
+.text2 {
+    position: absolute;
+    top: -3rem;
+    left: 50px;
+    transition: all 0.5s ease;
+}
+
+.item-flexSB .imges {
+    height: auto;
+    width: 94.3375px;
+    min-height: auto;
+    min-width: none;
+    display: inline;
+    overflow: clip;
+    cursor: pointer;
+}
+
+.item-flexSB img {
+    height: 80px;
+    width: 80px;
+    display: inline;
+    overflow: clip;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.item-flexSB2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: rgb(138, 0, 0);
+    background-color: #ffffff;
+    height: 159px;
+    width: 545.65px;
+    margin: 30px 0;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.item-flexSB2 h2 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #000;
+    margin: 0 0 15px 0;
+    cursor: pointer;
+    position: absolute;
+    top: 540px;
+    left: 180px;
+    transition: all 0.3.5s ease;
+}
+
+.item-flexSB2 p {
+    font-size: 18px;
+    line-height: 30px;
+    word-spacing: 0;
+    color: #a7a5a5;
+    background-position: 0% 0%;
+    height: 60px;
+    width: 395px;
+    position: absolute;
+    top: 565px;
+    left: 180px;
+    display: block;
+    cursor: pointer;
+}
+
+.item-flexSB2 .imges {
+    height: auto;
+    width: 94.3375px;
+    min-height: auto;
+    min-width: none;
+    display: inline;
+    overflow: clip;
+    cursor: pointer;
+}
+
+.item-flexSB2 img {
+    height: 80px;
+    width: 80px;
+    display: inline;
+    overflow: clip;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.item-flexSB2:hover {
+    background-color: #1eb2a6;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.item-flexSB2:hover h2 {
+    transform: scale(1.05);
+
+    color: #ffffff;
+}
+
+.item-flexSB2:hover p {
+    transform: scale(1.05);
+
+    color: #ffffff;
+}
+
+.item-flexSB2:hover img {
+    transform: scale(1.05);
+
+}
+
+.item-flexSB2:hover {
+    background-color: #1eb2a6;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.item-flexSB2:hover h2 {
+    transform: scale(1.05);
+
+    color: #ffffff;
+}
+
+.item-flexSB2:hover p {
+    transform: scale(1.05);
+
+    color: #ffffff;
+}
+
+.item-flexSB2:hover img {
+    transform: scale(1.05);
+
+}
+
+.item-flexSB3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    background-color: #ffffff;
+    height: 100px;
+    width: 545.65px;
+    margin: 30px 0;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.item-flexSB3 h2 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #000;
+    margin: 0 0 15px 0;
+    cursor: pointer;
+    position: absolute;
+    top: 760px;
+    left: 180px;
+    transition: all 0.3.5s ease;
+}
+
+.item-flexSB3 p {
+    font-size: 18px;
+    line-height: 30px;
+    word-spacing: 0;
+    color: #a7a5a5;
+    height: 60px;
+    width: 389.875px;
+    position: absolute;
+    top: 780px;
+    left: 180px;
+    display: block;
+    cursor: pointer;
+}
+
+.item-flexSB3 .imges {
+    height: auto;
+    width: 94.3375px;
+    min-height: auto;
+    min-width: none;
+    display: inline;
+    overflow: clip;
+    cursor: pointer;
+}
+
+.item-flexSB3 img {
+    height: 80px;
+    width: 80px;
+    display: inline;
+    overflow: clip;
+    cursor: pointer;
+    transition: all 0.5s ease;
+
+}
+
+.text3 {
+    position: absolute;
+    top: -3rem;
+    left: 50px;
+}
+
+.background-img {
+    position: absolute;
+    top: 700px;
+    left: 118px;
+    height: 931px;
+    width: 637.838px;
+}
+
+.item-flexSB:hover {
+    background-color: #1eb2a6;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.item-flexSB:hover h2 {
+    transform: scale(1.05);
+
+    color: #ffffff;
+}
+
+.item-flexSB:hover p {
+    transform: scale(1.05);
+
+    color: #ffffff;
+}
+
+.item-flexSB:hover img {
+    transform: scale(1.05);
+
+}
+
+.item-flexSB3:hover {
+    background-color: #1eb2a6;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.item-flexSB3:hover h2 {
+    transform: scale(1.05);
+    color: #ffffff;
+}
+
+.item-flexSB3:hover p {
+    transform: scale(1.05);
+    color: #ffffff;
+}
+
+.item-flexSB3:hover img {
+    transform: scale(1.05);
+}
